@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		433565B1207861EC002800A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433565B0207861EC002800A5 /* AppDelegate.swift */; };
+		433565B3207861EC002800A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433565B2207861EC002800A5 /* ViewController.swift */; };
+		433565B6207861EC002800A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433565B4207861EC002800A5 /* Main.storyboard */; };
+		433565B8207861ED002800A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433565B7207861ED002800A5 /* Assets.xcassets */; };
+		433565BB207861ED002800A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433565B9207861ED002800A5 /* LaunchScreen.storyboard */; };
+		433565C6207861ED002800A5 /* ARMoveObjectWithCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433565C5207861ED002800A5 /* ARMoveObjectWithCameraTests.swift */; };
+		433565D1207861ED002800A5 /* ARMoveObjectWithCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433565D0207861ED002800A5 /* ARMoveObjectWithCameraUITests.swift */; };
+		433565DF2078623F002800A5 /* ARSCNViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433565DE2078623F002800A5 /* ARSCNViewViewController.swift */; };
+		433565E12078684E002800A5 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 433565E02078684E002800A5 /* Models.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		433565C2207861ED002800A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433565A5207861EC002800A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433565AC207861EC002800A5;
+			remoteInfo = ARMoveObjectWithCamera;
+		};
+		433565CD207861ED002800A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433565A5207861EC002800A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433565AC207861EC002800A5;
+			remoteInfo = ARMoveObjectWithCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		433565AD207861EC002800A5 /* ARMoveObjectWithCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMoveObjectWithCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		433565B0207861EC002800A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		433565B2207861EC002800A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		433565B5207861EC002800A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		433565B7207861ED002800A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		433565BA207861ED002800A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		433565BC207861ED002800A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433565C1207861ED002800A5 /* ARMoveObjectWithCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMoveObjectWithCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		433565C5207861ED002800A5 /* ARMoveObjectWithCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMoveObjectWithCameraTests.swift; sourceTree = "<group>"; };
+		433565C7207861ED002800A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433565CC207861ED002800A5 /* ARMoveObjectWithCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMoveObjectWithCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		433565D0207861ED002800A5 /* ARMoveObjectWithCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMoveObjectWithCameraUITests.swift; sourceTree = "<group>"; };
+		433565D2207861ED002800A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433565DE2078623F002800A5 /* ARSCNViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSCNViewViewController.swift; sourceTree = "<group>"; };
+		433565E02078684E002800A5 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		433565AA207861EC002800A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433565BE207861ED002800A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433565C9207861ED002800A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433565A4207861EC002800A5 = {
+			isa = PBXGroup;
+			children = (
+				433565AF207861EC002800A5 /* ARMoveObjectWithCamera */,
+				433565C4207861ED002800A5 /* ARMoveObjectWithCameraTests */,
+				433565CF207861ED002800A5 /* ARMoveObjectWithCameraUITests */,
+				433565AE207861EC002800A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		433565AE207861EC002800A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				433565AD207861EC002800A5 /* ARMoveObjectWithCamera.app */,
+				433565C1207861ED002800A5 /* ARMoveObjectWithCameraTests.xctest */,
+				433565CC207861ED002800A5 /* ARMoveObjectWithCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433565AF207861EC002800A5 /* ARMoveObjectWithCamera */ = {
+			isa = PBXGroup;
+			children = (
+				433565B0207861EC002800A5 /* AppDelegate.swift */,
+				433565B2207861EC002800A5 /* ViewController.swift */,
+				433565DE2078623F002800A5 /* ARSCNViewViewController.swift */,
+				433565E02078684E002800A5 /* Models.scnassets */,
+				433565B4207861EC002800A5 /* Main.storyboard */,
+				433565B7207861ED002800A5 /* Assets.xcassets */,
+				433565B9207861ED002800A5 /* LaunchScreen.storyboard */,
+				433565BC207861ED002800A5 /* Info.plist */,
+			);
+			path = ARMoveObjectWithCamera;
+			sourceTree = "<group>";
+		};
+		433565C4207861ED002800A5 /* ARMoveObjectWithCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				433565C5207861ED002800A5 /* ARMoveObjectWithCameraTests.swift */,
+				433565C7207861ED002800A5 /* Info.plist */,
+			);
+			path = ARMoveObjectWithCameraTests;
+			sourceTree = "<group>";
+		};
+		433565CF207861ED002800A5 /* ARMoveObjectWithCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				433565D0207861ED002800A5 /* ARMoveObjectWithCameraUITests.swift */,
+				433565D2207861ED002800A5 /* Info.plist */,
+			);
+			path = ARMoveObjectWithCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		433565AC207861EC002800A5 /* ARMoveObjectWithCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433565D5207861ED002800A5 /* Build configuration list for PBXNativeTarget "ARMoveObjectWithCamera" */;
+			buildPhases = (
+				433565A9207861EC002800A5 /* Sources */,
+				433565AA207861EC002800A5 /* Frameworks */,
+				433565AB207861EC002800A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARMoveObjectWithCamera;
+			productName = ARMoveObjectWithCamera;
+			productReference = 433565AD207861EC002800A5 /* ARMoveObjectWithCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		433565C0207861ED002800A5 /* ARMoveObjectWithCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433565D8207861ED002800A5 /* Build configuration list for PBXNativeTarget "ARMoveObjectWithCameraTests" */;
+			buildPhases = (
+				433565BD207861ED002800A5 /* Sources */,
+				433565BE207861ED002800A5 /* Frameworks */,
+				433565BF207861ED002800A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				433565C3207861ED002800A5 /* PBXTargetDependency */,
+			);
+			name = ARMoveObjectWithCameraTests;
+			productName = ARMoveObjectWithCameraTests;
+			productReference = 433565C1207861ED002800A5 /* ARMoveObjectWithCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		433565CB207861ED002800A5 /* ARMoveObjectWithCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433565DB207861ED002800A5 /* Build configuration list for PBXNativeTarget "ARMoveObjectWithCameraUITests" */;
+			buildPhases = (
+				433565C8207861ED002800A5 /* Sources */,
+				433565C9207861ED002800A5 /* Frameworks */,
+				433565CA207861ED002800A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				433565CE207861ED002800A5 /* PBXTargetDependency */,
+			);
+			name = ARMoveObjectWithCameraUITests;
+			productName = ARMoveObjectWithCameraUITests;
+			productReference = 433565CC207861ED002800A5 /* ARMoveObjectWithCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		433565A5207861EC002800A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sankai;
+				TargetAttributes = {
+					433565AC207861EC002800A5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					433565C0207861ED002800A5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 433565AC207861EC002800A5;
+					};
+					433565CB207861ED002800A5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 433565AC207861EC002800A5;
+					};
+				};
+			};
+			buildConfigurationList = 433565A8207861EC002800A5 /* Build configuration list for PBXProject "ARMoveObjectWithCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 433565A4207861EC002800A5;
+			productRefGroup = 433565AE207861EC002800A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				433565AC207861EC002800A5 /* ARMoveObjectWithCamera */,
+				433565C0207861ED002800A5 /* ARMoveObjectWithCameraTests */,
+				433565CB207861ED002800A5 /* ARMoveObjectWithCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		433565AB207861EC002800A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433565BB207861ED002800A5 /* LaunchScreen.storyboard in Resources */,
+				433565E12078684E002800A5 /* Models.scnassets in Resources */,
+				433565B8207861ED002800A5 /* Assets.xcassets in Resources */,
+				433565B6207861EC002800A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433565BF207861ED002800A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433565CA207861ED002800A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433565A9207861EC002800A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433565B3207861EC002800A5 /* ViewController.swift in Sources */,
+				433565B1207861EC002800A5 /* AppDelegate.swift in Sources */,
+				433565DF2078623F002800A5 /* ARSCNViewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433565BD207861ED002800A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433565C6207861ED002800A5 /* ARMoveObjectWithCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433565C8207861ED002800A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433565D1207861ED002800A5 /* ARMoveObjectWithCameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		433565C3207861ED002800A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 433565AC207861EC002800A5 /* ARMoveObjectWithCamera */;
+			targetProxy = 433565C2207861ED002800A5 /* PBXContainerItemProxy */;
+		};
+		433565CE207861ED002800A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 433565AC207861EC002800A5 /* ARMoveObjectWithCamera */;
+			targetProxy = 433565CD207861ED002800A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		433565B4207861EC002800A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				433565B5207861EC002800A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		433565B9207861ED002800A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				433565BA207861ED002800A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		433565D3207861ED002800A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		433565D4207861ED002800A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		433565D6207861ED002800A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P66QG6T4NC;
+				INFOPLIST_FILE = ARMoveObjectWithCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sankai.ARMoveObjectWithCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		433565D7207861ED002800A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P66QG6T4NC;
+				INFOPLIST_FILE = ARMoveObjectWithCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sankai.ARMoveObjectWithCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		433565D9207861ED002800A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARMoveObjectWithCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sankai.ARMoveObjectWithCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARMoveObjectWithCamera.app/ARMoveObjectWithCamera";
+			};
+			name = Debug;
+		};
+		433565DA207861ED002800A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARMoveObjectWithCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sankai.ARMoveObjectWithCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARMoveObjectWithCamera.app/ARMoveObjectWithCamera";
+			};
+			name = Release;
+		};
+		433565DC207861ED002800A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARMoveObjectWithCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sankai.ARMoveObjectWithCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARMoveObjectWithCamera;
+			};
+			name = Debug;
+		};
+		433565DD207861ED002800A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARMoveObjectWithCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sankai.ARMoveObjectWithCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARMoveObjectWithCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		433565A8207861EC002800A5 /* Build configuration list for PBXProject "ARMoveObjectWithCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433565D3207861ED002800A5 /* Debug */,
+				433565D4207861ED002800A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433565D5207861ED002800A5 /* Build configuration list for PBXNativeTarget "ARMoveObjectWithCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433565D6207861ED002800A5 /* Debug */,
+				433565D7207861ED002800A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433565D8207861ED002800A5 /* Build configuration list for PBXNativeTarget "ARMoveObjectWithCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433565D9207861ED002800A5 /* Debug */,
+				433565DA207861ED002800A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433565DB207861ED002800A5 /* Build configuration list for PBXNativeTarget "ARMoveObjectWithCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433565DC207861ED002800A5 /* Debug */,
+				433565DD207861ED002800A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 433565A5207861EC002800A5 /* Project object */;
+}
